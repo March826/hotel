@@ -1,0 +1,89 @@
+a{
+	font-size:20px;
+	color:gold;
+	padding:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+body{
+	background-color:cornflowerblue;
+	font-family:tahoma;
+	}
+
+h1{
+	color:gold;
+}
+h2{
+	color:gold;
+}
+h3{
+	color:gold;
+}
+h4{
+	color:gold;
+}
+h5{
+	color:gold;
+}
+h6{
+	color:gold;
+}
+
+hr{
+	color:gold; 
+	background-color:gold; 
+	height:4px;
+}
+
+#catchphrase{
+	text-align:center;
+	color:gold;
+}
+p{
+	font-size 18px;
+	color:gold;
+}
+img{
+	border: solid 4px gold;
+}
+#cover{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#reserve{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+	width:850px;
+
+}
+
+#garden{
+	height:300px;
+	width:450px;
+
+}
+#chess{
+	height:300px;
+	width:450px;
+
+}
+#plain{
+	height:300px;
+	width:450px;
+}
+label{
+	color:gold;
+}
+.result{
+	text-align: center;
+}
+#success{
+	height:450px;
+	width:800px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
