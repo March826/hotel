@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Hotel in Wonderland</title>
+	</head>
+	<body>
+		<h1>Hotel in Wonderland</h1>
+		<HR>
+		<a href="/home">Home</a>
+		<a href="/about">About</a>
+		<a href="/rooms">Rooms</a>
+		<HR>
+		<h2 id="catchphrase">Hotel in Wonderland: The Hotel at the End of the Rabit Hole</h2>
+		<h3>Room Reservations</h3>
+		<form method="POST" action="/result">
+		<label for “name”>Name of Adventurer</label>
+			<input id = “name” type=“text” />
+			<br />
+		<label for “contact”>Contact Details</label>
+			<input id = “name” type=“text” />
+			<br />
+		<label for "room">Room Desired</label>
+			<select id="room" name="type">
+			  <option value=“chess”>Chess Room</option>
+			  <option value="garden">Garden Suite</option>
+			  <option value="plain">Plain-Not-So-Plain Room</option>
+			</select>
+			<br />
+			<label for "date">Date Desired</label>
+			<input id = "date" type="date"/>
+			<br />
+			<input type="submit" value="Book"/>
+		</form>
+		
+		<img id="reserve" src="serve.jpg" />
+		<h4>Book now! and be the first (aside from Alice) to experience wonderland!</h4>
+	</body>
+</html>

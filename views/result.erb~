@@ -1,0 +1,9 @@
+<html>
+	<head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Hotel in Wonderland</title>
+	</head>
+	<body>
+		<h4><%= @room.room_type %></h4>
+	</body>
+</html>

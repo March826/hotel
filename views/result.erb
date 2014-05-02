@@ -1,0 +1,19 @@
+<html>
+	<head>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title>Hotel in Wonderland</title>
+	</head>
+	<body>
+		<h2 class="result">Wonderful!</h2>
+		<h3 class="result"><%= @room.room_type %></h3>
+		<h4 class="result"><%= @room.say_name %></h4>
+		<br />
+		<h3 class="result">Reservation Details</h3>
+		<p class="result"><%= @room.name_details %></p>
+		<p class="result"><%= @room.contact_details %></p>
+		<p class="result"><%= @room.room_details %></p>
+		<p class="result"><%= @room.arrive_details %></p>
+		<p class="result"><%= @room.depart_details %></p>
+		<img id="success" src="success.jpg" />
+	</body>
+</html>
